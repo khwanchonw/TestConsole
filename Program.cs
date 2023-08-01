@@ -1,7 +1,6 @@
-﻿using TestConsole.day2;
-//Oper1 oper1 = new();
+﻿using TestConsole.day4;
 
-new Object3();
+new Workshop5Table8x8();
 
 
 Console.ReadLine();
