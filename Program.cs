@@ -2,10 +2,13 @@
 using System.Linq;
 using TestConsole.MyCode;
 using TestConsole.day5;
+
 //new Workshop5Table8x8();
 
 
-_= new Array2D();
+_= new LambdaOrderBy();
+
+
 
 
 
