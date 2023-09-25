@@ -42,5 +42,28 @@ namespace TestConsole.day3
                 Console.WriteLine("data error");
             }
         }
+		public static void MyAppGrade()
+		{
+            Console.Write("Enter score : ");
+            string? input = Console.ReadLine();
+            bool inputIsInt = int.TryParse(input, out int score);
+            if (!inputIsInt) { Console.WriteLine("Score must be number 0 to 100"); }
+            else
+            {
+                string Grade =
+                    score > 100 ? "Over Score" :
+                    score >= 80 ? "A" :
+                    score >= 70 ? "B" :
+                    score >= 60 ? "C" :
+                    score >= 50 ? "D" :
+                    score >= 0 ? "F" :
+                    score < 50 ? "F" :
+                    "Wrong Score";
+                Console.WriteLine(Grade);
+            }
+
+
+        }
+		
     }
 }
